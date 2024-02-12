@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :blogs
-  root "pages#home"
+  root "blogs#index"
   get "about", to: "pages#about"
 end
